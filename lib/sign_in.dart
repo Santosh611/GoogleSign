@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shoppyist/widgets/facebook_sign_in_button.dart';
 import 'package:shoppyist/widgets/google_sign_in_button.dart';
 
 import 'authentication/google_sign_in/authentication.dart';
@@ -198,24 +197,6 @@ class _SignInState extends State<SignIn> {
                             },
                           ),
                           SizedBox(height: size.height * 0.0282),
-                          FutureBuilder(
-                            future: Authentication.initializeFirebase(
-                                context: context),
-                            builder: (context, snapshot) {
-                              if (snapshot.hasError) {
-                                return const Text(
-                                    'Error initializing Firebase');
-                              } else if (snapshot.connectionState ==
-                                  ConnectionState.done) {
-                                return const FacebookSignButton();
-                              }
-                              return const CircularProgressIndicator(
-                                valueColor: AlwaysStoppedAnimation<Color>(
-                                  Colors.amber,
-                                ),
-                              );
-                            },
-                          ),
                           SizedBox(width: size.width * 0.0282),
                         ],
                       ),

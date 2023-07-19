@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767002391981",
+    "project_id": "shoppyist-ee379",
+    "storage_bucket": "shoppyist-ee379.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767002391981:android:dc841ed8ff987927435d24",
+        "android_client_info": {
+          "package_name": "com.example.shoppyist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767002391981-ukv7shjujhthh4om7j8v0m938t82bat1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaQTfytc173aV4suGc-B89_iGRYv17DNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767002391981-ukv7shjujhthh4om7j8v0m938t82bat1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
